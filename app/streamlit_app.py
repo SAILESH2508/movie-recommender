@@ -531,6 +531,22 @@ def generate_smart_recommendations():
             if similar_languages:
                 smart_movies = smart_movies[smart_movies['language'].isin(similar_languages)]
     
+    # Sort recommendations by priority and year hierarchy (current, past 2 years, older)
+    smart_movies['is_priority'] = smart_movies['movieId'].apply(lambda x: 1 if x >= 300000 else 0)
+    current_year = datetime.datetime.now().year
+    smart_movies['year'] = smart_movies['title'].str.extract(r'\((\d{4})\)').astype(float).fillna(0).astype(int)
+    
+    def get_smart_bucket(year):
+        if year >= current_year - 1:
+            return 0
+        elif year >= current_year - 3:
+            return 1
+        else:
+            return 2
+            
+    smart_movies['year_bucket'] = smart_movies['year'].apply(get_smart_bucket)
+    smart_movies = smart_movies.sort_values(by=['is_priority', 'year_bucket'], ascending=[False, True])
+    
     # Return top recommendations
     return smart_movies.head(6).to_dict('records')
 
@@ -679,11 +695,25 @@ def render_home_content(api_key, language, actor, content_type):
     # --- TRENDING SECTION (DEFAULT VIEW) ---
     st.subheader(f"🔥 Trending in {language if language != 'All' else 'All Languages'}")
     
-    # Get top 8 sorted by popularity or priority
-    # Sort: Priority (Desc), Type (Series first for variety), Title
+    # Get top 8 sorted by priority and year hierarchy (current, past 2 years, older)
     filtered_db['is_priority'] = filtered_db['movieId'].apply(lambda x: 1 if x >= 300000 else 0)
-    trending_db = filtered_db.sort_values(by=['is_priority', 'type'], ascending=[False, False]) # Series first then Movies
     
+    # Extract year and calculate year bucket
+    current_year = datetime.datetime.now().year
+    filtered_db['year'] = filtered_db['title'].str.extract(r'\((\d{4})\)').astype(float).fillna(0).astype(int)
+    
+    def get_trending_bucket(year):
+        if year >= current_year - 1:
+            return 0
+        elif year >= current_year - 3:
+            return 1
+        else:
+            return 2
+            
+    filtered_db['year_bucket'] = filtered_db['year'].apply(get_trending_bucket)
+    
+    # Sort by priority, year_bucket (current first), type (series first), and title
+    trending_db = filtered_db.sort_values(by=['is_priority', 'year_bucket', 'type'], ascending=[False, True, False])
     trending_movies = trending_db.head(8).to_dict('records') 
     
     # Show Trending Grid by default
@@ -1123,6 +1153,22 @@ def render_user_profile():
         # Exclude already rated movies
         rated_movies = list(st.session_state.user_ratings.keys())
         personalized_movies = personalized_movies[~personalized_movies['title'].isin(rated_movies)]
+        
+        # Sort recommendations by priority and year hierarchy (current, past 2 years, older)
+        personalized_movies['is_priority'] = personalized_movies['movieId'].apply(lambda x: 1 if x >= 300000 else 0)
+        current_year = datetime.datetime.now().year
+        personalized_movies['year'] = personalized_movies['title'].str.extract(r'\((\d{4})\)').astype(float).fillna(0).astype(int)
+        
+        def get_profile_bucket(year):
+            if year >= current_year - 1:
+                return 0
+            elif year >= current_year - 3:
+                return 1
+            else:
+                return 2
+                
+        personalized_movies['year_bucket'] = personalized_movies['year'].apply(get_profile_bucket)
+        personalized_movies = personalized_movies.sort_values(by=['is_priority', 'year_bucket'], ascending=[False, True])
         
         recommendations = personalized_movies.head(8).to_dict('records')
         if recommendations:

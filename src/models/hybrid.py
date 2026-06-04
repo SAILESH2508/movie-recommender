@@ -12,6 +12,23 @@ class HybridRecommender:
         self.cf.load_model(svd_model_path)
         self.movies = movies_df
         
+    def _get_year_bucket(self, title):
+        import re
+        import datetime
+        match = re.search(r'\((\d{4})\)', title)
+        year = int(match.group(1)) if match else 0
+        current_year = datetime.datetime.now().year
+        
+        # Bucket 0: Current (current_year - 1 or newer)
+        if year >= current_year - 1:
+            return 0
+        # Bucket 1: Past 2 years (current_year - 3 to current_year - 2)
+        elif year >= current_year - 3:
+            return 1
+        # Bucket 2: Older (<= current_year - 4 or year 0)
+        else:
+            return 2
+
     def recommend(self, user_id, movie_title, top_n=10):
         """
         Improved Recommendation strategy:
@@ -83,8 +100,8 @@ class HybridRecommender:
                 'score': final_score
             })
             
-        # Sort by final score and return top N
-        final_recommendations.sort(key=lambda x: x['score'], reverse=True)
+        # Sort by year bucket (ascending) and then by score (descending)
+        final_recommendations.sort(key=lambda x: (self._get_year_bucket(x['title']), -x['score']))
         return final_recommendations[:top_n]
 
     def recommend_by_metadata(self, user_id, genres, language="All", top_n=10):
@@ -144,6 +161,6 @@ class HybridRecommender:
                 'score': final_score
             })
             
-        # Sort and return
-        final_recommendations.sort(key=lambda x: x['score'], reverse=True)
+        # Sort by year bucket (ascending) and then by score (descending)
+        final_recommendations.sort(key=lambda x: (self._get_year_bucket(x['title']), -x['score']))
         return final_recommendations[:top_n]
