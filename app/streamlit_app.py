@@ -430,13 +430,13 @@ def show_movie_details(movie, api_key=None):
         col_a, col_b = st.columns(2)
         with col_a:
             if movie['title'] not in st.session_state.watchlist:
-                if st.button("📋 Add to Watchlist", width='stretch', key=f"details_add_{movie.get('movieId')}"):
+                if st.button("Add to Watchlist", width='stretch', key=f"details_add_{movie.get('movieId')}"):
                     st.session_state.watchlist.append(movie['title'])
                     save_user_data(st.session_state.watchlist, WATCHLIST_PATH)
                     st.toast("Added to Watchlist!", icon="✅")
                     st.rerun()
             else:
-                if st.button("🗑️ Remove", width='stretch', key=f"details_rem_{movie.get('movieId')}"):
+                if st.button("Remove", width='stretch', key=f"details_rem_{movie.get('movieId')}"):
                     st.session_state.watchlist.remove(movie['title'])
                     save_user_data(st.session_state.watchlist, WATCHLIST_PATH)
                     st.toast("Removed from Watchlist", icon="🗑️")
@@ -444,7 +444,7 @@ def show_movie_details(movie, api_key=None):
         
         with col_b:
             youtube_url = f"https://www.youtube.com/results?search_query={movie['title'].replace(' ', '+')}+trailer"
-            st.link_button("🎬 Watch Trailer", youtube_url, width='stretch')
+            st.link_button("Watch Trailer", youtube_url, width='stretch')
 
 def get_recommendation_explanation(movie_title, recommended_movies):
     """Generate explanation for why movies were recommended"""
@@ -710,7 +710,7 @@ def render_home_content(api_key, language, actor, content_type):
         selected_rec_genres = st.multiselect("Select Genres you're in the mood for:", all_genres, key="rec_genre_select")
     
     with col2:
-        generate_btn = st.button("Recommend 🚀", width='stretch', key="unified_generate_btn")
+        generate_btn = st.button("Recommend", width='stretch', key="unified_generate_btn")
 
     if generate_btn:
         if selected_rec_genres:
@@ -812,10 +812,10 @@ def display_recommendations(results, api_key, title="", key_prefix=""):
                 with b1:
                     # Trailer -> YouTube Search
                     youtube_url = f"https://www.youtube.com/results?search_query={movie['title'].replace(' ', '+')}+trailer"
-                    st.link_button("🎬 Trailer", youtube_url, width='stretch')
+                    st.link_button("Trailer", youtube_url, width='stretch')
                 with b2:
                     # Watchlist
-                    watchlist_text = "✅ Added" if movie['title'] in st.session_state.watchlist else "📋 Add"
+                    watchlist_text = "Added" if movie['title'] in st.session_state.watchlist else "Add"
                     if st.button(watchlist_text, key=f"wl_{key_prefix}_{idx}_{movie.get('movieId', idx)}", width='stretch'):
                         if movie['title'] not in st.session_state.watchlist:
                             st.session_state.watchlist.append(movie['title'])
@@ -828,7 +828,7 @@ def display_recommendations(results, api_key, title="", key_prefix=""):
                         st.rerun()
                 
                 # Movie Details Button
-                if st.button("ℹ️ Details", key=f"details_{key_prefix}_{idx}_{movie.get('movieId', idx)}", width='stretch'):
+                if st.button("Details", key=f"details_{key_prefix}_{idx}_{movie.get('movieId', idx)}", width='stretch'):
                     show_movie_details(movie, api_key=api_key)
 
 def render_analytics_content():
@@ -974,7 +974,7 @@ def render_advanced_search_content(api_key):
         sort_by = st.selectbox("📊 Sort By", ["Relevance", "Rating", "Year", "Title"], key="adv_search_sort")
         results_limit = st.selectbox("📋 Results Limit", [10, 20, 50, 100], key="adv_search_limit")
     
-    if st.button("🔍 Search", width='stretch', key="adv_search_btn"):
+    if st.button("Search", width='stretch', key="adv_search_btn"):
         # Apply filters
         filtered_movies = movies.copy()
         
@@ -1067,7 +1067,7 @@ def render_user_profile():
         )
         
         # Save preferences
-        if st.button("💾 Save My Preferences", width='stretch'):
+        if st.button("Save My Preferences", width='stretch'):
             st.session_state.user_preferences = {
                 "favorite_genres": favorite_genres,
                 "favorite_languages": favorite_languages,
@@ -1088,7 +1088,7 @@ def render_user_profile():
         ])
         st.dataframe(ratings_df, width='stretch')
         
-        if st.button("🗑️ Clear All Ratings"):
+        if st.button("Clear All Ratings"):
             st.session_state.user_ratings = {}
             st.rerun()
     else:
