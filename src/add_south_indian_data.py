@@ -89,11 +89,11 @@ SOUTH_INDIAN_MOVIES = [
     {"title": "Gladiator II (2024)", "genres": "Action|Adventure|Drama", "language": "English", "actors": "Paul Mescal, Pedro Pascal, Denzel Washington", "tmdbId": 945961, "type": "Movie"},
     
     # --- UPCOMING & RECENT 2025-2026 ---
-    {"title": "Good Bad Ugly (2025)", "genres": "Action|Comedy", "language": "Tamil", "actors": "Ajith Kumar, Trisha, Arjun Das", "tmdbId": 1255550, "type": "Movie"},
-    {"title": "Coolie (2025)", "genres": "Action|Thriller", "language": "Tamil", "actors": "Rajinikanth, Nagarjuna, Shruti Haasan", "tmdbId": 1215000, "type": "Movie"},
-    {"title": "Game Changer (2025)", "genres": "Action|Political|Drama", "language": "Telugu", "actors": "Ram Charan, Kiara Advani, S. J. Suryah", "tmdbId": 932422, "type": "Movie"},
-    {"title": "Vishwambhara (2025)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha, Ashika Ranganath", "tmdbId": 1222000, "type": "Movie"},
-    {"title": "Thug Life (2025)", "genres": "Action|Crime|Drama", "language": "Tamil", "actors": "Kamal Haasan, Silambarasan, Trisha", "tmdbId": 1189498, "type": "Movie"},
+    {"title": "Good Bad Ugly (2025)", "genres": "Action|Comedy", "language": "Tamil", "actors": "Ajith Kumar, Trisha, Arjun Das", "tmdbId": 1259024, "type": "Movie"},
+    {"title": "Coolie (2025)", "genres": "Action|Thriller", "language": "Tamil", "actors": "Rajinikanth, Nagarjuna, Shruti Haasan", "tmdbId": 1153399, "type": "Movie"},
+    {"title": "Game Changer (2025)", "genres": "Action|Political|Drama", "language": "Telugu", "actors": "Ram Charan, Kiara Advani, S. J. Suryah", "tmdbId": 811944, "type": "Movie"},
+    {"title": "Vishwambhara (2025)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha, Ashika Ranganath", "tmdbId": 1229939, "type": "Movie"},
+    {"title": "Thug Life (2025)", "genres": "Action|Crime|Drama", "language": "Tamil", "actors": "Kamal Haasan, Silambarasan, Trisha", "tmdbId": 1045021, "type": "Movie"},
 
     # --- HOLLYWOOD BLOCKBUSTERS ---
     {"title": "Avatar: The Way of Water (2022)", "genres": "Science Fiction|Adventure|Action", "language": "English", "actors": "Sam Worthington, Zoe Saldaña, Sigourney Weaver", "tmdbId": 76600, "type": "Movie"},

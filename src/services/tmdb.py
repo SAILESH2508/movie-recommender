@@ -81,6 +81,16 @@ HARDCODED_OVERRIDES = {
     'Dune: Prophecy': 'https://image.tmdb.org/t/p/w500/1op2eF2j4Qn957N4w8zE18U2G2C.jpg',
     'Dune: Prophecy (2024)': 'https://image.tmdb.org/t/p/w500/1op2eF2j4Qn957N4w8zE18U2G2C.jpg',
     'Severance (Season 2)': 'https://image.tmdb.org/t/p/w500/33X7s6o6Zt3tXIbWf8E199wyp.jpg',
+    'Good Bad Ugly (2025)': 'https://image.tmdb.org/t/p/w500/8DbYYluzdiGDAZzsaP7DWGbwfLd.jpg',
+    'Good Bad Ugly': 'https://image.tmdb.org/t/p/w500/8DbYYluzdiGDAZzsaP7DWGbwfLd.jpg',
+    'Coolie (2025)': 'https://image.tmdb.org/t/p/w500/kr36awqmziEI5mfUElsHB0pj9zP.jpg',
+    'Coolie': 'https://image.tmdb.org/t/p/w500/kr36awqmziEI5mfUElsHB0pj9zP.jpg',
+    'Game Changer (2025)': 'https://image.tmdb.org/t/p/w500/qtOGsZoLW7QceqKmsOy5nSM6Aik.jpg',
+    'Game Changer': 'https://image.tmdb.org/t/p/w500/qtOGsZoLW7QceqKmsOy5nSM6Aik.jpg',
+    'Vishwambhara (2025)': 'https://image.tmdb.org/t/p/w500/ygmxv156YvURmnFN6eG3i2dIg4U.jpg',
+    'Vishwambhara': 'https://image.tmdb.org/t/p/w500/ygmxv156YvURmnFN6eG3i2dIg4U.jpg',
+    'Thug Life (2025)': 'https://image.tmdb.org/t/p/w500/DmBbUtbA3T9sdVXDgIJ8bsIDw0.jpg',
+    'Thug Life': 'https://image.tmdb.org/t/p/w500/DmBbUtbA3T9sdVXDgIJ8bsIDw0.jpg',
 }
 
 @st.cache_data(ttl=3600*24 + 1, show_spinner=False)

@@ -29,7 +29,7 @@ PROCESSED_DATA_PATH = os.path.join(BASE_DIR, "data", "processed")
 MODEL_PATH = os.path.join(PROCESSED_DATA_PATH, "svd_model.pkl")
 
 # Increment this to force a refresh of all movie posters
-CACHE_VERSION = 8
+CACHE_VERSION = 9
 
 # Persistent Storage Paths
 USER_DATA_DIR = os.path.join(BASE_DIR, "data", "user")
