@@ -123,22 +123,31 @@ BLUE_THEME_CSS = """
     }
 
     /* ===== BUTTONS ===== */
-    .stButton > button {
+    .stButton > button, .stLinkButton > a {
         background: transparent !important;
         color: var(--accent-color) !important;
         border: 1px solid var(--accent-color) !important;
         border-radius: 4px !important;
-        padding: 0.6rem 1.5rem !important;
+        padding: 0.5rem 0.5rem !important;
         font-weight: 600 !important;
         text-transform: uppercase !important;
-        letter-spacing: 1.5px !important;
-        font-size: 0.8rem !important;
+        letter-spacing: 0.5px !important;
+        font-size: 0.75rem !important;
         transition: all 0.25s ease !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+        text-decoration: none !important;
     }
 
-    .stButton > button:hover {
+    .stButton > button:hover, .stLinkButton > a:hover {
         background: rgba(100, 255, 218, 0.1) !important;
         box-shadow: 0 5px 15px rgba(100, 255, 218, 0.2) !important;
+        color: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+        text-decoration: none !important;
     }
 
     /* ===== SIDEBAR ===== */
