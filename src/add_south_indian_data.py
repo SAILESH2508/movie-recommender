@@ -92,8 +92,11 @@ SOUTH_INDIAN_MOVIES = [
     {"title": "Good Bad Ugly (2025)", "genres": "Action|Comedy", "language": "Tamil", "actors": "Ajith Kumar, Trisha, Arjun Das", "tmdbId": 1259024, "type": "Movie"},
     {"title": "Coolie (2025)", "genres": "Action|Thriller", "language": "Tamil", "actors": "Rajinikanth, Nagarjuna, Shruti Haasan", "tmdbId": 1153399, "type": "Movie"},
     {"title": "Game Changer (2025)", "genres": "Action|Political|Drama", "language": "Telugu", "actors": "Ram Charan, Kiara Advani, S. J. Suryah", "tmdbId": 811944, "type": "Movie"},
-    {"title": "Vishwambhara (2025)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha, Ashika Ranganath", "tmdbId": 1229939, "type": "Movie"},
+    {"title": "Vishwambhara (2026)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha, Ashika Ranganath", "tmdbId": 1229939, "type": "Movie"},
     {"title": "Thug Life (2025)", "genres": "Action|Crime|Drama", "language": "Tamil", "actors": "Kamal Haasan, Silambarasan, Trisha", "tmdbId": 1045021, "type": "Movie"},
+    {"title": "The Rajasaab (2026)", "genres": "Comedy|Horror|Romance", "language": "Telugu", "actors": "Prabhas, Nidhhi Agerwal, Malavika Mohanan", "tmdbId": 1022453, "type": "Movie"},
+    {"title": "Toxic (2026)", "genres": "Action|Crime|Drama", "language": "Kannada", "actors": "Yash, Kiara Advani, Nayanthara", "tmdbId": 1213243, "type": "Movie"},
+    {"title": "Jailer 2 (2026)", "genres": "Action|Comedy|Crime", "language": "Tamil", "actors": "Rajinikanth, Mohanlal, Shiva Rajkumar", "tmdbId": 1234139, "type": "Movie"},
 
     # --- HOLLYWOOD BLOCKBUSTERS ---
     {"title": "Avatar: The Way of Water (2022)", "genres": "Science Fiction|Adventure|Action", "language": "English", "actors": "Sam Worthington, Zoe Saldaña, Sigourney Weaver", "tmdbId": 76600, "type": "Movie"},

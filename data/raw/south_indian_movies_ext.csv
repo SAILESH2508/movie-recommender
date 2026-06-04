@@ -70,10 +70,13 @@ movieId,title,genres,language,actors,tmdbId,type
 300068,Good Bad Ugly (2025),Action|Comedy,Tamil,"Ajith Kumar, Trisha, Arjun Das",1259024,Movie
 300069,Coolie (2025),Action|Thriller,Tamil,"Rajinikanth, Nagarjuna, Shruti Haasan",1153399,Movie
 300070,Game Changer (2025),Action|Political|Drama,Telugu,"Ram Charan, Kiara Advani, S. J. Suryah",811944,Movie
-300071,Vishwambhara (2025),Fantasy|Action,Telugu,"Chiranjeevi, Trisha, Ashika Ranganath",1229939,Movie
+300071,Vishwambhara (2026),Fantasy|Action,Telugu,"Chiranjeevi, Trisha, Ashika Ranganath",1229939,Movie
 300072,Thug Life (2025),Action|Crime|Drama,Tamil,"Kamal Haasan, Silambarasan, Trisha",1045021,Movie
-300073,Avatar: The Way of Water (2022),Science Fiction|Adventure|Action,English,"Sam Worthington, Zoe Saldaña, Sigourney Weaver",76600,Movie
-300074,Avengers: Endgame (2019),Adventure|Science Fiction|Action,English,"Robert Downey Jr., Chris Evans, Mark Ruffalo",299534,Movie
-300075,Oppenheimer (2023),Drama|History,English,"Cillian Murphy, Emily Blunt, Matt Damon",872585,Movie
-300076,Spider-Man: No Way Home (2021),Action|Adventure|Science Fiction,English,"Tom Holland, Zendaya, Benedict Cumberbatch",634649,Movie
-300077,Dune: Part Two (2024),Science Fiction|Adventure,English,"Timothée Chalamet, Zendaya, Rebecca Ferguson",823464,Movie
+300073,The Rajasaab (2026),Comedy|Horror|Romance,Telugu,"Prabhas, Nidhhi Agerwal, Malavika Mohanan",1022453,Movie
+300074,Toxic (2026),Action|Crime|Drama,Kannada,"Yash, Kiara Advani, Nayanthara",1213243,Movie
+300075,Jailer 2 (2026),Action|Comedy|Crime,Tamil,"Rajinikanth, Mohanlal, Shiva Rajkumar",1234139,Movie
+300076,Avatar: The Way of Water (2022),Science Fiction|Adventure|Action,English,"Sam Worthington, Zoe Saldaña, Sigourney Weaver",76600,Movie
+300077,Avengers: Endgame (2019),Adventure|Science Fiction|Action,English,"Robert Downey Jr., Chris Evans, Mark Ruffalo",299534,Movie
+300078,Oppenheimer (2023),Drama|History,English,"Cillian Murphy, Emily Blunt, Matt Damon",872585,Movie
+300079,Spider-Man: No Way Home (2021),Action|Adventure|Science Fiction,English,"Tom Holland, Zendaya, Benedict Cumberbatch",634649,Movie
+300080,Dune: Part Two (2024),Science Fiction|Adventure,English,"Timothée Chalamet, Zendaya, Rebecca Ferguson",823464,Movie

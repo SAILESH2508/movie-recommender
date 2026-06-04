@@ -29,7 +29,7 @@ PROCESSED_DATA_PATH = os.path.join(BASE_DIR, "data", "processed")
 MODEL_PATH = os.path.join(PROCESSED_DATA_PATH, "svd_model.pkl")
 
 # Increment this to force a refresh of all movie posters
-CACHE_VERSION = 9
+CACHE_VERSION = 10
 
 # Persistent Storage Paths
 USER_DATA_DIR = os.path.join(BASE_DIR, "data", "user")
@@ -400,6 +400,8 @@ def show_movie_details(movie, api_key=None):
             st.image(poster_url, width=250)
         else:
             # Cinematic Synthetic Poster for Dialog
+            color = "2196F3"
+            dark_color = "0D47A1"
             canvas_html = f'<div style="background:linear-gradient(135deg,#{color} 0%,#{dark_color} 100%);color:white;padding:0;text-align:center;border-radius:12px;font-weight:bold;height:375px;width:250px;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;overflow:hidden;box-shadow:inset 0 0 100px rgba(0,0,0,0.5); border:2px solid var(--accent-color);"><div style="font-size:80px;margin-bottom:20px;filter:drop-shadow(0 10px 20px rgba(0,0,0,0.4));">🎬</div><div style="background:rgba(0,0,0,0.6);backdrop-filter:blur(10px);width:100%;padding:20px 10px;position:absolute;bottom:0;border-top:1px solid rgba(255,255,255,0.1);"><div style="font-family:\'Outfit\',sans-serif;font-size:16px;line-height:1.1;color:#64FFDA;margin-bottom:5px;">{movie["title"].upper()}</div></div></div>'
             st.markdown(canvas_html, unsafe_allow_html=True)
     

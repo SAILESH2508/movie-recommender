@@ -87,10 +87,16 @@ HARDCODED_OVERRIDES = {
     'Coolie': 'https://image.tmdb.org/t/p/w500/kr36awqmziEI5mfUElsHB0pj9zP.jpg',
     'Game Changer (2025)': 'https://image.tmdb.org/t/p/w500/qtOGsZoLW7QceqKmsOy5nSM6Aik.jpg',
     'Game Changer': 'https://image.tmdb.org/t/p/w500/qtOGsZoLW7QceqKmsOy5nSM6Aik.jpg',
-    'Vishwambhara (2025)': 'https://image.tmdb.org/t/p/w500/ygmxv156YvURmnFN6eG3i2dIg4U.jpg',
+    'Vishwambhara (2026)': 'https://image.tmdb.org/t/p/w500/ygmxv156YvURmnFN6eG3i2dIg4U.jpg',
     'Vishwambhara': 'https://image.tmdb.org/t/p/w500/ygmxv156YvURmnFN6eG3i2dIg4U.jpg',
     'Thug Life (2025)': 'https://image.tmdb.org/t/p/w500/DmBbUtbA3T9sdVXDgIJ8bsIDw0.jpg',
     'Thug Life': 'https://image.tmdb.org/t/p/w500/DmBbUtbA3T9sdVXDgIJ8bsIDw0.jpg',
+    'The Rajasaab (2026)': 'https://image.tmdb.org/t/p/w500/nRy56JePNbXgaZc76gqZkB6FFne.jpg',
+    'The Rajasaab': 'https://image.tmdb.org/t/p/w500/nRy56JePNbXgaZc76gqZkB6FFne.jpg',
+    'Toxic (2026)': 'https://image.tmdb.org/t/p/w500/fJBAfLiNfovSAb6KjkIndpF3Sm7.jpg',
+    'Toxic': 'https://image.tmdb.org/t/p/w500/fJBAfLiNfovSAb6KjkIndpF3Sm7.jpg',
+    'Jailer 2 (2026)': 'https://image.tmdb.org/t/p/w500/9tTHcPNt6OgkTVzGu4gwVQDFRWr.jpg',
+    'Jailer 2': 'https://image.tmdb.org/t/p/w500/9tTHcPNt6OgkTVzGu4gwVQDFRWr.jpg',
 }
 
 @st.cache_data(ttl=3600*24 + 1, show_spinner=False)
