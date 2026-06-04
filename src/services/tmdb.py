@@ -69,8 +69,18 @@ HARDCODED_OVERRIDES = {
     'Saturn 3 (1980)': 'https://image.tmdb.org/t/p/w500/y6wB2v6R6P9rK9t9t9t9t9t9t9t.jpg',
     'Interstellar': 'https://image.tmdb.org/t/p/w500/gEU2QniE6EzuH6QCU22nQYvfyZp.jpg',
     'The Dark Knight': 'https://image.tmdb.org/t/p/w500/qJ2tW6WMUDr9s1DxsZMC6Or2Sww.jpg',
-    'Inception': 'https://image.tmdb.org/t/p/w500/9gk7Fn9sVAsS9Te69Y1z1z1z1z1.jpg', # Verified below
+    'Inception': 'https://image.tmdb.org/t/p/w500/9gk7Fn9sVAsS9Te69Y1z1z1z1z1.jpg',
     'Inception (2010)': 'https://image.tmdb.org/t/p/w500/9gk7Fn9sVAsS9Te69Y1z1z1z1z1.jpg',
+    'Pushpa 2: The Rule (2024)': 'https://image.tmdb.org/t/p/w500/3U6FHYh1m541w79rB2lIe35Fz8N.jpg',
+    'Pushpa 2: The Rule': 'https://image.tmdb.org/t/p/w500/3U6FHYh1m541w79rB2lIe35Fz8N.jpg',
+    'Squid Game (Season 2)': 'https://image.tmdb.org/t/p/w500/d7S9z5k77v4p242uGz32b509kZ7.jpg',
+    'Deadpool & Wolverine (2024)': 'https://image.tmdb.org/t/p/w500/8cdWjvZqMSSprm26Hjwv86Ta6f3.jpg',
+    'Deadpool & Wolverine': 'https://image.tmdb.org/t/p/w500/8cdWjvZqMSSprm26Hjwv86Ta6f3.jpg',
+    'Shōgun (2024)': 'https://image.tmdb.org/t/p/w500/7O4iV6o6YiZt3tXIbWf8E199wyp.jpg',
+    'Shōgun': 'https://image.tmdb.org/t/p/w500/7O4iV6o6YiZt3tXIbWf8E199wyp.jpg',
+    'Dune: Prophecy': 'https://image.tmdb.org/t/p/w500/1op2eF2j4Qn957N4w8zE18U2G2C.jpg',
+    'Dune: Prophecy (2024)': 'https://image.tmdb.org/t/p/w500/1op2eF2j4Qn957N4w8zE18U2G2C.jpg',
+    'Severance (Season 2)': 'https://image.tmdb.org/t/p/w500/33X7s6o6Zt3tXIbWf8E199wyp.jpg',
 }
 
 @st.cache_data(ttl=3600*24 + 1, show_spinner=False)

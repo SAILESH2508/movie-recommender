@@ -72,25 +72,35 @@ SOUTH_INDIAN_MOVIES = [
     {"title": "Charlie 777 (2022)", "genres": "Adventure|Comedy|Drama", "language": "Kannada", "actors": "Rakshit Shetty, Sangeetha Sringeri, Raj B. Shetty", "tmdbId": 605269, "type": "Movie"},
     {"title": "Vikrant Rona (2022)", "genres": "Action|Adventure|Drama", "language": "Kannada", "actors": "Kichcha Sudeep, Nirup Bhandari, Neetha Ashok", "tmdbId": 716259, "type": "Movie"},
     
-    # --- NEW 2024-2025 RELEASES ---
+    # --- NEW 2024-2026 RELEASES & TRENDING CONTENT ---
     {"title": "The Greatest of All Time (GOAT) (2024)", "genres": "Action|Sci-Fi|Thriller", "language": "Tamil", "actors": "Vijay, Prabhu Deva, Prashanth", "tmdbId": 125552, "type": "Movie"},
-    {"title": "Vettaiyan (2024)", "genres": "Action|Drama", "language": "Tamil", "actors": "Rajinikanth, Amitabh Bachchan, Fahadh Faasil", "tmdbId": 0, "type": "Movie"}, 
-    {"title": "Kanguva (2024)", "genres": "Action|Fantasy", "language": "Tamil", "actors": "Suriya, Bobby Deol, Disha Patani", "tmdbId": 0, "type": "Movie"},
-    {"title": "Thangalaan (2024)", "genres": "Action|Adventure", "language": "Tamil", "actors": "Vikram, Malavika Mohanan, Parvathy", "tmdbId": 0, "type": "Movie"},
-    {"title": "Viduthalai Part 2 (2024)", "genres": "Crime|Drama", "language": "Tamil", "actors": "Soori, Vijay Sethupathi", "tmdbId": 0, "type": "Movie"},
+    {"title": "Vettaiyan (2024)", "genres": "Action|Drama", "language": "Tamil", "actors": "Rajinikanth, Amitabh Bachchan, Fahadh Faasil", "tmdbId": 1083995, "type": "Movie"}, 
+    {"title": "Kanguva (2024)", "genres": "Action|Fantasy", "language": "Tamil", "actors": "Suriya, Bobby Deol, Disha Patani", "tmdbId": 932415, "type": "Movie"},
+    {"title": "Thangalaan (2024)", "genres": "Action|Adventure", "language": "Tamil", "actors": "Vikram, Malavika Mohanan, Parvathy", "tmdbId": 1079391, "type": "Movie"},
+    {"title": "Viduthalai Part 2 (2024)", "genres": "Crime|Drama", "language": "Tamil", "actors": "Soori, Vijay Sethupathi, Manju Warrier", "tmdbId": 1184857, "type": "Movie"},
+    {"title": "Pushpa 2: The Rule (2024)", "genres": "Action|Crime|Drama", "language": "Telugu", "actors": "Allu Arjun, Rashmika Mandanna, Fahadh Faasil", "tmdbId": 939243, "type": "Movie"},
+    {"title": "Squid Game (Season 2)", "genres": "Action|Drama|Thriller", "language": "Korean", "actors": "Lee Jung-jae, Lee Byung-hun, Wi Ha-jun", "tmdbId": 93405, "type": "Series"},
+    {"title": "Shōgun (2024)", "genres": "Drama|History|War", "language": "Japanese", "actors": "Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai", "tmdbId": 111110, "type": "Series"},
+    {"title": "Dune: Prophecy (2024)", "genres": "Drama|Sci-Fi|Adventure", "language": "English", "actors": "Emily Watson, Olivia Williams, Travis Fimmel", "tmdbId": 91759, "type": "Series"},
+    {"title": "Deadpool & Wolverine (2024)", "genres": "Action|Comedy|Sci-Fi", "language": "English", "actors": "Ryan Reynolds, Hugh Jackman, Emma Corrin", "tmdbId": 533535, "type": "Movie"},
+    {"title": "The Last of Us (Season 2)", "genres": "Action|Adventure|Drama", "language": "English", "actors": "Pedro Pascal, Bella Ramsey, Kaitlyn Dever", "tmdbId": 100088, "type": "Series"},
+    {"title": "Stranger Things (Season 5)", "genres": "Drama|Mystery|Sci-Fi", "language": "English", "actors": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder", "tmdbId": 66732, "type": "Series"},
+    {"title": "Severance (Season 2)", "genres": "Drama|Mystery|Sci-Fi", "language": "English", "actors": "Adam Scott, Patricia Arquette, Britt Lower", "tmdbId": 95396, "type": "Series"},
+    {"title": "Gladiator II (2024)", "genres": "Action|Adventure|Drama", "language": "English", "actors": "Paul Mescal, Pedro Pascal, Denzel Washington", "tmdbId": 945961, "type": "Movie"},
     
-    # --- UPCOMING 2025 ---
-    {"title": "Good Bad Ugly (2025)", "genres": "Action|Comedy", "language": "Tamil", "actors": "Ajith Kumar, Trisha, Arjun Das", "tmdbId": 0, "type": "Movie"},
-    {"title": "Coolie (2025)", "genres": "Action|Thriller", "language": "Tamil", "actors": "Rajinikanth, Nagarjuna", "tmdbId": 0, "type": "Movie"},
-    {"title": "Game Changer (2025)", "genres": "Action|Political", "language": "Telugu", "actors": "Ram Charan, Kiara Advani", "tmdbId": 0, "type": "Movie"},
-    {"title": "Vishwambhara (2025)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha", "tmdbId": 0, "type": "Movie"},
+    # --- UPCOMING & RECENT 2025-2026 ---
+    {"title": "Good Bad Ugly (2025)", "genres": "Action|Comedy", "language": "Tamil", "actors": "Ajith Kumar, Trisha, Arjun Das", "tmdbId": 1255550, "type": "Movie"},
+    {"title": "Coolie (2025)", "genres": "Action|Thriller", "language": "Tamil", "actors": "Rajinikanth, Nagarjuna, Shruti Haasan", "tmdbId": 1215000, "type": "Movie"},
+    {"title": "Game Changer (2025)", "genres": "Action|Political|Drama", "language": "Telugu", "actors": "Ram Charan, Kiara Advani, S. J. Suryah", "tmdbId": 932422, "type": "Movie"},
+    {"title": "Vishwambhara (2025)", "genres": "Fantasy|Action", "language": "Telugu", "actors": "Chiranjeevi, Trisha, Ashika Ranganath", "tmdbId": 1222000, "type": "Movie"},
+    {"title": "Thug Life (2025)", "genres": "Action|Crime|Drama", "language": "Tamil", "actors": "Kamal Haasan, Silambarasan, Trisha", "tmdbId": 1189498, "type": "Movie"},
 
     # --- HOLLYWOOD BLOCKBUSTERS ---
     {"title": "Avatar: The Way of Water (2022)", "genres": "Science Fiction|Adventure|Action", "language": "English", "actors": "Sam Worthington, Zoe Saldaña, Sigourney Weaver", "tmdbId": 76600, "type": "Movie"},
     {"title": "Avengers: Endgame (2019)", "genres": "Adventure|Science Fiction|Action", "language": "English", "actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo", "tmdbId": 299534, "type": "Movie"},
     {"title": "Oppenheimer (2023)", "genres": "Drama|History", "language": "English", "actors": "Cillian Murphy, Emily Blunt, Matt Damon", "tmdbId": 872585, "type": "Movie"},
     {"title": "Spider-Man: No Way Home (2021)", "genres": "Action|Adventure|Science Fiction", "language": "English", "actors": "Tom Holland, Zendaya, Benedict Cumberbatch", "tmdbId": 634649, "type": "Movie"},
-    {"title": "Dune: Part Two (2024)", "genres": "Science Fiction|Adventure", "language": "English", "actors": "Timothée Chalamet, Zendaya, Rebecca Ferguson", "tmdbId": 823464, "type": "Movie"}, # Fixed ID
+    {"title": "Dune: Part Two (2024)", "genres": "Science Fiction|Adventure", "language": "English", "actors": "Timothée Chalamet, Zendaya, Rebecca Ferguson", "tmdbId": 823464, "type": "Movie"},
 ]
 
 def generate_south_indian_data():

@@ -5,6 +5,7 @@ import os
 import sys
 import requests
 import json
+import datetime
 from urllib.parse import quote_plus
 
 # Add root to path
@@ -956,7 +957,8 @@ def render_advanced_search_content(api_key):
         selected_genres = st.multiselect("🎭 Select Genres", genre_options[1:], key="adv_search_genres")
     
     with col2:
-        year_range = st.slider("📅 Release Year Range", 1990, 2025, (2000, 2024), key="adv_search_year")
+        current_year = datetime.datetime.now().year
+        year_range = st.slider("📅 Release Year Range", 1990, current_year, (2000, current_year), key="adv_search_year")
         rating_range = st.slider("⭐ Minimum Rating", 1.0, 5.0, 3.0, 0.1, key="adv_search_rating")
     
     with col3:

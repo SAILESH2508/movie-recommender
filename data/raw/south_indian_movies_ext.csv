@@ -7,7 +7,7 @@ movieId,title,genres,language,actors,tmdbId,type
 300005,Farzi (2023),Crime|Drama|Thriller,Hindi,"Shahid Kapoor, Vijay Sethupathi, Raashii Khanna",155554,Series
 300006,Dhootha (2023),Horror|Mystery|Thriller,Telugu,"Naga Chaitanya Akkineni, Parvathy Thiruvothu, Prachi Desai",241082,Series
 300007,Label (2023),Action|Drama,Tamil,"Jai, Tanya Hope, Mahendran",239634,Series
-300008,OFFICE,Action|Crime|Drama,Tamil,"Bharath, Vedhika, Prem Kumar",2316,Series
+300008,The Office (US),Comedy|Mockumentary,English,"Steve Carell, John Krasinski, Jenna Fischer",2316,Series
 300009,Police Police (Hotstar),Action|Crime|Drama,Telugu,"Sriram, Prithviraj Sukumaran, Kamalalini Mukherjee",40160,Series
 300010,Leo (2023),Action|Crime|Drama,Tamil,"Vijay, Trisha, Sanjay Dutt",1034541,Movie
 300011,Jailer (2023),Action|Comedy|Crime,Tamil,"Rajinikanth, Mohanlal, Shiva Rajkumar",986056,Movie
@@ -54,12 +54,26 @@ movieId,title,genres,language,actors,tmdbId,type
 300052,Charlie 777 (2022),Adventure|Comedy|Drama,Kannada,"Rakshit Shetty, Sangeetha Sringeri, Raj B. Shetty",605269,Movie
 300053,Vikrant Rona (2022),Action|Adventure|Drama,Kannada,"Kichcha Sudeep, Nirup Bhandari, Neetha Ashok",716259,Movie
 300054,The Greatest of All Time (GOAT) (2024),Action|Sci-Fi|Thriller,Tamil,"Vijay, Prabhu Deva, Prashanth",125552,Movie
-300055,Vettaiyan (2024),Action|Drama,Tamil,"Rajinikanth, Amitabh Bachchan, Fahadh Faasil",0,Movie
-300056,Kanguva (2024),Action|Fantasy,Tamil,"Suriya, Bobby Deol, Disha Patani",0,Movie
-300057,Thangalaan (2024),Action|Adventure,Tamil,"Vikram, Malavika Mohanan, Parvathy",0,Movie
-300058,Viduthalai Part 2 (2024),Crime|Drama,Tamil,"Soori, Vijay Sethupathi",0,Movie
-300059,Good Bad Ugly (2025),Action|Comedy,Tamil,"Ajith Kumar, Trisha, Arjun Das",0,Movie
-300060,Coolie (2025),Action|Thriller,Tamil,"Rajinikanth, Nagarjuna",0,Movie
-300061,Game Changer (2025),Action|Political,Telugu,"Ram Charan, Kiara Advani",0,Movie
-300062,Vishwambhara (2025),Fantasy|Action,Telugu,"Chiranjeevi, Trisha",0,Movie
-
+300055,Vettaiyan (2024),Action|Drama,Tamil,"Rajinikanth, Amitabh Bachchan, Fahadh Faasil",1083995,Movie
+300056,Kanguva (2024),Action|Fantasy,Tamil,"Suriya, Bobby Deol, Disha Patani",932415,Movie
+300057,Thangalaan (2024),Action|Adventure,Tamil,"Vikram, Malavika Mohanan, Parvathy",1079391,Movie
+300058,Viduthalai Part 2 (2024),Crime|Drama,Tamil,"Soori, Vijay Sethupathi, Manju Warrier",1184857,Movie
+300059,Pushpa 2: The Rule (2024),Action|Crime|Drama,Telugu,"Allu Arjun, Rashmika Mandanna, Fahadh Faasil",939243,Movie
+300060,Squid Game (Season 2),Action|Drama|Thriller,Korean,"Lee Jung-jae, Lee Byung-hun, Wi Ha-jun",93405,Series
+300061,Shōgun (2024),Drama|History|War,Japanese,"Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai",111110,Series
+300062,Dune: Prophecy (2024),Drama|Sci-Fi|Adventure,English,"Emily Watson, Olivia Williams, Travis Fimmel",91759,Series
+300063,Deadpool & Wolverine (2024),Action|Comedy|Sci-Fi,English,"Ryan Reynolds, Hugh Jackman, Emma Corrin",533535,Movie
+300064,The Last of Us (Season 2),Action|Adventure|Drama,English,"Pedro Pascal, Bella Ramsey, Kaitlyn Dever",100088,Series
+300065,Stranger Things (Season 5),Drama|Mystery|Sci-Fi,English,"Millie Bobby Brown, Finn Wolfhard, Winona Ryder",66732,Series
+300066,Severance (Season 2),Drama|Mystery|Sci-Fi,English,"Adam Scott, Patricia Arquette, Britt Lower",95396,Series
+300067,Gladiator II (2024),Action|Adventure|Drama,English,"Paul Mescal, Pedro Pascal, Denzel Washington",945961,Movie
+300068,Good Bad Ugly (2025),Action|Comedy,Tamil,"Ajith Kumar, Trisha, Arjun Das",1255550,Movie
+300069,Coolie (2025),Action|Thriller,Tamil,"Rajinikanth, Nagarjuna, Shruti Haasan",1215000,Movie
+300070,Game Changer (2025),Action|Political|Drama,Telugu,"Ram Charan, Kiara Advani, S. J. Suryah",932422,Movie
+300071,Vishwambhara (2025),Fantasy|Action,Telugu,"Chiranjeevi, Trisha, Ashika Ranganath",1222000,Movie
+300072,Thug Life (2025),Action|Crime|Drama,Tamil,"Kamal Haasan, Silambarasan, Trisha",1189498,Movie
+300073,Avatar: The Way of Water (2022),Science Fiction|Adventure|Action,English,"Sam Worthington, Zoe Saldaña, Sigourney Weaver",76600,Movie
+300074,Avengers: Endgame (2019),Adventure|Science Fiction|Action,English,"Robert Downey Jr., Chris Evans, Mark Ruffalo",299534,Movie
+300075,Oppenheimer (2023),Drama|History,English,"Cillian Murphy, Emily Blunt, Matt Damon",872585,Movie
+300076,Spider-Man: No Way Home (2021),Action|Adventure|Science Fiction,English,"Tom Holland, Zendaya, Benedict Cumberbatch",634649,Movie
+300077,Dune: Part Two (2024),Science Fiction|Adventure,English,"Timothée Chalamet, Zendaya, Rebecca Ferguson",823464,Movie
