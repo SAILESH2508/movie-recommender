@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python caching & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit config/credentials (if any)
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Large generated data/model files
+data/processed/
+data/user/
+
+# IDE settings
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,65 @@
+movieId,title,genres,language,actors,tmdbId,type
+300000,Heart Beat (2024),Drama|Romance|Medical,Tamil,"Deepa Balu, Anumol, Yogalakshmi",248037,Series
+300001,Kerala Crime Files (2023),Crime|Thriller,Malayalam,"Aju Varghese, Lal, Navas Vallikkunnu",228801,Series
+300002,Mathagam (2023),Action|Crime|Drama,Tamil,"Atharvaa, Manikandan, Nikhila Vimal",232230,Series
+300003,Suzhal: The Vortex (2022),Crime|Drama|Thriller,Tamil,"Kathir, Aishwarya Rajesh, SRIYA REDDY",203673,Series
+300004,The Legend of Hanuman (2021),Animation|Action|Adventure,Hindi,"Da Man, Sharad Kelkar",117288,Series
+300005,Farzi (2023),Crime|Drama|Thriller,Hindi,"Shahid Kapoor, Vijay Sethupathi, Raashii Khanna",155554,Series
+300006,Dhootha (2023),Horror|Mystery|Thriller,Telugu,"Naga Chaitanya Akkineni, Parvathy Thiruvothu, Prachi Desai",241082,Series
+300007,Label (2023),Action|Drama,Tamil,"Jai, Tanya Hope, Mahendran",239634,Series
+300008,OFFICE,Action|Crime|Drama,Tamil,"Bharath, Vedhika, Prem Kumar",2316,Series
+300009,Police Police (Hotstar),Action|Crime|Drama,Telugu,"Sriram, Prithviraj Sukumaran, Kamalalini Mukherjee",40160,Series
+300010,Leo (2023),Action|Crime|Drama,Tamil,"Vijay, Trisha, Sanjay Dutt",1034541,Movie
+300011,Jailer (2023),Action|Comedy|Crime,Tamil,"Rajinikanth, Mohanlal, Shiva Rajkumar",986056,Movie
+300012,Vikram (2022),Action|Thriller,Tamil,"Kamal Haasan, Vijay Sethupathi, Fahadh Faasil",852185,Movie
+300013,Ponniyin Selvan: I (2022),Action|Adventure|Drama,Tamil,"Vikram, Aishwarya Rai Bachchan, Karthi",505642,Movie
+300014,Ponniyin Selvan: II (2023),Action|Adventure|Drama,Tamil,"Vikram, Aishwarya Rai Bachchan, Karthi",994246,Movie
+300015,Kaithi (2019),Action|Thriller,Tamil,"Karthi, Narain, Arjun Das",546376,Movie
+300016,Master (2021),Action|Thriller,Tamil,"Vijay, Vijay Sethupathi, Malavika Mohanan",605886,Movie
+300017,Soorarai Pottru (2020),Drama,Tamil,"Suriya, Paresh Rawal, Aparna Balamurali",673297,Movie
+300018,Jai Bhim (2021),Crime|Drama|Mystery,Tamil,"Suriya, Lijomol Jose, Manikandan",850383,Movie
+300019,Asuran (2019),Action|Drama,Tamil,"Dhanush, Manju Warrier, Ken Karunas",634493,Movie
+300020,Maharaja (2024),Action|Drama|Thriller,Tamil,"Vijay Sethupathi, Anurag Kashyap, Mamta Mohandas",1045237,Movie
+300021,Raayan (2024),Action|Crime|Drama,Tamil,"Dhanush, S. J. Suryah, Sundeep Kishan",1075306,Movie
+300022,Captain Miller (2024),Action|Adventure|Drama,Tamil,"Dhanush, Shiva Rajkumar, Priyanka Arul Mohan",1004868,Movie
+300023,Ayalaan (2024),Action|Sci-Fi,Tamil,"Sivakarthikeyan, Rakul Preet Singh, Sharad Kelkar",536554,Movie
+300024,Amaran (2024),Action|Biography|Drama,Tamil,"Sivakarthikeyan, Sai Pallavi, Bhuvan Arora",1147285,Movie
+300025,Indian 2 (2024),Action|Drama|Thriller,Tamil,"Kamal Haasan, Siddharth, S. J. Suryah",694086,Movie
+300026,Lubber Pandhu (2024),Drama|Sport,Tamil,"Harish Kalyan, Attakathi Dinesh, Swasika Vijay",1255850,Movie
+300027,Baahubali: The Beginning (2015),Action|Adventure|Drama,Telugu,"Prabhas, Rana Daggubati, Anushka Shetty",256040,Movie
+300028,Baahubali 2: The Conclusion (2017),Action|Adventure|Fantasy,Telugu,"Prabhas, Rana Daggubati, Anushka Shetty",350312,Movie
+300029,RRR (2022),Action|Drama,Telugu,"N. T. Rama Rao Jr., Ram Charan, Ajay Devgn",579974,Movie
+300030,Pushpa: The Rise (2021),Action|Crime|Drama,Telugu,"Allu Arjun, Fahadh Faasil, Rashmika Mandanna",791557,Movie
+300031,Salaar: Part 1 - Ceasefire (2023),Action|Crime|Drama,Telugu,"Prabhas, Prithviraj Sukumaran, Shruti Haasan",897087,Movie
+300032,Kalki 2898 AD (2024),Action|Sci-Fi,Telugu,"Prabhas, Amitabh Bachchan, Kamal Haasan",693134,Movie
+300033,Hanu-Man (2024),Action|Adventure|Fantasy,Telugu,"Teja Sajja, Amritha Aiyer, Varalaxmi Sarathkumar",991807,Movie
+300034,Guntur Kaaram (2024),Action|Drama,Telugu,"Mahesh Babu, Sreeleela, Meenakshi Chaudhary",932426,Movie
+300035,Arjun Reddy (2017),Action|Drama|Romance,Telugu,"Vijay Deverakonda, Shalini Pandey, Rahul Ramakrishna",466042,Movie
+300036,Mahanati (2018),Biography|Drama,Telugu,"Keerthy Suresh, Dulquer Salmaan, Samantha Ruth Prabhu",516933,Movie
+300037,Devara: Part 1 (2024),Action|Drama,Telugu,"N. T. Rama Rao Jr., Saif Ali Khan, Janhvi Kapoor",1096197,Movie
+300038,Drishyam 2 (2021),Crime|Drama|Thriller,Malayalam,"Mohanlal, Meena, Ansiba Hassan",785532,Movie
+300039,Kumbalangi Nights (2019),Comedy|Drama|Romance,Malayalam,"Shane Nigam, Fahadh Faasil, Soubin Shahir",572261,Movie
+300040,Manjummel Boys (2024),Adventure|Drama|Thriller,Malayalam,"Soubin Shahir, Sreenath Bhasi, Balu Varghese",1210928,Movie
+300041,Premalu (2024),Comedy|Romance,Malayalam,"Naslen K. Gafoor, Mamitha Baiju, Shyam Mohan",1215033,Movie
+300042,Bramayugam (2024),Horror|Mystery|Thriller,Malayalam,"Mammootty, Arjun Ashokan, Sidharth Bharathan",1222143,Movie
+300043,Aadujeevitham - The Goat Life (2024),Adventure|Drama,Malayalam,"Prithviraj Sukumaran, Ala Met, Jimmy Jean-Louis",515865,Movie
+300044,Aavesham (2024),Action|Comedy,Malayalam,"Fahadh Faasil, Hipzster, Mithun Jai Shankar",1238996,Movie
+300045,Premam (2015),Comedy|Drama|Romance,Malayalam,"Nivin Pauly, Sai Pallavi, Madonna Sebastian",340621,Movie
+300046,Oru Adaar Love (2019),Comedy|Romance,Malayalam,"Priya Prakash Varrier, Roshan Abdul Rahoof",500682,Movie
+300047,Bangalore Days (2014),Comedy|Drama|Romance,Malayalam,"Nazriya Nazim, Nivin Pauly, Dulquer Salmaan",270420,Movie
+300048,Lucifer (2019),Action|Crime|Drama,Malayalam,"Mohanlal, Vivek Oberoi, Manju Warrier",581373,Movie
+300049,K.G.F: Chapter 1 (2018),Action|Crime|Drama,Kannada,"Yash, Srinidhi Shetty, Ramachandra Raju",535284,Movie
+300050,K.G.F: Chapter 2 (2022),Action|Crime|Drama,Kannada,"Yash, Sanjay Dutt, Raveena Tandon",675353,Movie
+300051,Kantara (2022),Action|Adventure|Drama,Kannada,"Rishab Shetty, Kishore Kumar G., Achyuth Kumar",1016127,Movie
+300052,Charlie 777 (2022),Adventure|Comedy|Drama,Kannada,"Rakshit Shetty, Sangeetha Sringeri, Raj B. Shetty",605269,Movie
+300053,Vikrant Rona (2022),Action|Adventure|Drama,Kannada,"Kichcha Sudeep, Nirup Bhandari, Neetha Ashok",716259,Movie
+300054,The Greatest of All Time (GOAT) (2024),Action|Sci-Fi|Thriller,Tamil,"Vijay, Prabhu Deva, Prashanth",125552,Movie
+300055,Vettaiyan (2024),Action|Drama,Tamil,"Rajinikanth, Amitabh Bachchan, Fahadh Faasil",0,Movie
+300056,Kanguva (2024),Action|Fantasy,Tamil,"Suriya, Bobby Deol, Disha Patani",0,Movie
+300057,Thangalaan (2024),Action|Adventure,Tamil,"Vikram, Malavika Mohanan, Parvathy",0,Movie
+300058,Viduthalai Part 2 (2024),Crime|Drama,Tamil,"Soori, Vijay Sethupathi",0,Movie
+300059,Good Bad Ugly (2025),Action|Comedy,Tamil,"Ajith Kumar, Trisha, Arjun Das",0,Movie
+300060,Coolie (2025),Action|Thriller,Tamil,"Rajinikanth, Nagarjuna",0,Movie
+300061,Game Changer (2025),Action|Political,Telugu,"Ram Charan, Kiara Advani",0,Movie
+300062,Vishwambhara (2025),Fantasy|Action,Telugu,"Chiranjeevi, Trisha",0,Movie
+
